@@ -26,8 +26,8 @@ const Home = () => {
 				<span className={styles.loader}>
 					<span>
 						<img
-							src={process.env.PUBLIC_URL + `loading.gif`}
-							alt="img"
+							src={process.env.PUBLIC_URL + `/loading.gif`}
+							alt="loading"
 						/>
 					</span>
 				</span>

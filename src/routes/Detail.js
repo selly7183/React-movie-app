@@ -27,8 +27,8 @@ function Detail() {
 			{loading ? (
 				<span className={styles.loader}>
 					<img
-						src={process.env.PUBLIC_URL + `../loading.gif`}
-						alt="img"
+						src={process.env.PUBLIC_URL + `/loading.gif`}
+						alt="loading"
 					/>
 				</span>
 			) : (
