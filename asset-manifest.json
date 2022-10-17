@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/selly7183.io/React-movie-app/static/css/main.abbc7e3c.css",
-    "main.js": "/selly7183.io/React-movie-app/static/js/main.20d5d74c.js",
+    "main.js": "/selly7183.io/React-movie-app/static/js/main.8172da66.js",
     "index.html": "/selly7183.io/React-movie-app/index.html",
     "main.abbc7e3c.css.map": "/selly7183.io/React-movie-app/static/css/main.abbc7e3c.css.map",
-    "main.20d5d74c.js.map": "/selly7183.io/React-movie-app/static/js/main.20d5d74c.js.map"
+    "main.8172da66.js.map": "/selly7183.io/React-movie-app/static/js/main.8172da66.js.map"
   },
   "entrypoints": [
     "static/css/main.abbc7e3c.css",
-    "static/js/main.20d5d74c.js"
+    "static/js/main.8172da66.js"
   ]
 }
