@@ -63,7 +63,7 @@
 	.wrap {
 		max-width: 100%;
 		width: auto;
-		height: 100%;
+		height: 100vh;
 		gap: 30px;
 		padding: 25px;
 		transform: none;
@@ -82,7 +82,15 @@
 			line-height: 0.6;
 		}
 		h2 {
-			font-size: 22px;
+			font-size: 20px;
+			line-height: 1.2;
+		}
+		.genres {
+			margin-top: 18px !important;
+			span {
+				font-size: 14px;
+				padding: 0 10px 5px !important;
+			}
 		}
 		.description {
 			font-size: 13px;
