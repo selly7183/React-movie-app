@@ -1,6 +1,6 @@
 .movie {
 	width: 43%;
-	background-color: rgba(18, 26, 31, 0.9);
+	background-color: rgba(18, 26, 31, 0.7);
 	box-shadow: 8px 8px 20px 1px rgba(50, 50, 93, 0.25);
 	padding: 30px;
 	margin-bottom: 70px;
@@ -79,6 +79,7 @@
 	.movie {
 		flex-flow: column;
 		margin-bottom: 35px;
+		padding: 30px 30px 0 30px;
 		& > a {
 			margin-right: 0;
 			max-width: initial;
