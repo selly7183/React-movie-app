@@ -1,6 +1,6 @@
 .movie {
 	width: 43%;
-	background-color: #fff;
+	background-color: rgba(18, 26, 31, 0.9);
 	box-shadow: 8px 8px 20px 1px rgba(50, 50, 93, 0.25);
 	padding: 30px;
 	margin-bottom: 70px;
@@ -21,7 +21,7 @@
 	}
 	.movie_Txt {
 		a {
-			color: #2c2c2c;
+			color: #fff;
 			text-decoration: none;
 		}
 		h2 {
@@ -42,7 +42,7 @@
 			li {
 				font-size: 14px;
 				position: relative;
-				background-color: #abb5b8;
+				background-color: #455a64;
 				padding: 5px 10px 8px;
 				border-radius: 20px;
 				color: #fff;
@@ -78,14 +78,12 @@
 @media (max-width: 600px) {
 	.movie {
 		flex-flow: column;
-		margin-bottom: 50px;
-		a {
+		margin-bottom: 35px;
+		& > a {
 			margin-right: 0;
 			max-width: initial;
-			height: 400px;
+			text-align: center;
 			.movie_img {
-				width: 100%;
-				height: 100%;
 				&:hover {
 					transform: translateY(0px);
 				}
@@ -118,8 +116,5 @@
 	.movie_img {
 		max-height: 375px;
 		height: 100%;
-	}
-	.movie_Txt {
-		margin-top: -23px;
 	}
 }

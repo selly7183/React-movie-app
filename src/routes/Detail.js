@@ -58,8 +58,15 @@ function Detail() {
 								))}
 							</p>
 							<p className={styles.description}>
-								{movies.description_intro}
+								{movies.description_intro.length > 250
+									? `${movies.description_intro.slice(
+											0,
+											300
+									  )}.`
+									: movies.description_intro}
 							</p>
+
+							<p></p>
 						</div>
 					</div>
 				</div>
