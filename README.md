@@ -9,5 +9,5 @@
 4. useEffect를 이용해서 loading spinner gif를 넣음.
 5. json 파일에서 movie를 map을 돌려서 관련된 key, id, cover image, title, summary 등을 메인에서 보여지게 prop으로 전달.
 6. detail 페이지도 json파일을 불러와서 해당 movie의 상세페이지가 보이도록 제작.
-7. postCss 사용.
+7. PostCss 사용.
 8. 반응형 제작 완료.
